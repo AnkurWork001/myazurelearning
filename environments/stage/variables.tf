@@ -1,7 +1,6 @@
 variable "subscription_id" {
   type      = string
   sensitive = true
-  default = var.
 }
 
 variable "client_id" {
