@@ -1,5 +1,5 @@
 
 resource "azurerm_resource_group" "rg" {
-  name     = "testingresourcegroup"
+  name     = "ankur-rg"
   location = var.primary_region
 }

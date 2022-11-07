@@ -17,3 +17,8 @@ variable "tenant_id" {
   type      = string
   sensitive = true
 }
+
+variable "primary_region" {
+  type =string
+  default = "East US"
+}
