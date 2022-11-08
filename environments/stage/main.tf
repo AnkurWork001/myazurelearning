@@ -11,10 +11,10 @@ resource "azurerm_mssql_server" "example" {
   location                     = azurerm_resource_group.rg.location
   version                      = "12.0"
   administrator_login          = "serveradmin"
-  administrator_login_password = "thisisankur"
+  administrator_login_password = "thisis1ankur"
   minimum_tls_version          = "1.2"
   public_network_access_enabled = false
-  
+
   tags = {
     environment = "stage"
   }
